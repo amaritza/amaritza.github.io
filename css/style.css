@@ -1,0 +1,155 @@
+/* font-family: 'Roboto', sans-serif;
+    font-family: 'Slabo 27px', serif;
+    */
+
+.contenidos {
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+overflow: hidden;
+/*background: #66FFFF;*/
+
+
+
+}
+
+.objetivocontenido{
+width: 100%;
+color: white;
+font-size: 40px;
+text-align: center;
+/*margin-left: 50px;*/
+font-family: 'angsana new';
+padding-bottom: 30px;
+
+}
+
+
+.menu {
+color:white;
+padding-bottom: 10px;
+font-weight: bold;
+font-size: 35px;
+/*text-anchor: 150px;*/
+font-family: 'angsana new';
+text-align:center ;
+/*color:white;*/
+
+}
+  
+
+.titulobj{
+color: white;
+font-size: 50px;
+text-align:left;
+align-content: 20px;
+/*margin-: 175px;*/
+text-align: center;
+font-family: 'angsana new';
+}
+
+.logo2{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+
+header{
+       
+       background-image: url(../img/cabecera2.jpg);
+       /*width: 1024px;*/
+	   height: auto;
+	   margin:auto;
+	   background-repeat: no-repeat;
+       background-size: cover;
+	   margin-bottom: 50px;
+	}
+
+
+h1{
+font-family: 'angsana new';
+color: black;
+margin-right: 30px;
+font-size: 60px;
+/*padding-right:30px;*/
+text-align: right;
+padding-top: 80px; 
+
+
+/*line-height: 1.5;*/
+
+}
+
+nav{
+width: 100%;
+height: 60px;
+background: #006680;
+border-radius: 10px;
+/*margin-left: 335px;*/
+margin-bottom: 20px;
+
+}
+
+
+ul{
+margin: auto;
+padding-top: 4px;
+
+}
+
+
+li{
+	float: left;
+	list-style-type: none;
+	padding-bottom: 10px;
+	padding-right: 80px;
+
+	}
+
+a {
+	text-decoration: none;/* no agrega decoracion al menu*/
+	color: white;
+}
+
+body{
+
+    	background-color: white;
+    	background-repeat: no-repeat; /* para que no se repita la imagen cuando queda pequeña en la pantalla*/
+    	background-size: cover; /* a medida que se amplie la pantalla, se amplia la imagen*/
+		
+
+    }
+
+section{
+	width: 100%;
+	background: #006680;
+	/*background: #66FFFF;
+	height: 500px;*/
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	/*margin-left: 335px;*/
+	
+}
+
+footer{
+width: 100%;
+height: 70px;
+background: black;
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 10px;
+/*margin-left: 335px;*/
+}
+@media screen and (max-width: 600px){
+
+.contenidos{
+	width: 100%;
+	background:#66FFFF; 
+}
+.menu{
+	width: 50%;
+	text-align: left;
+}
